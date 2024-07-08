@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <conio.h>
 
 int main() {
     // Variables
@@ -65,6 +65,6 @@ int main() {
         printf("Desea calcular otro numero de la suerte? (S/N)\n");
         scanf(" %c", &continuar); 
     }
-
+    getch;
     return 0;
 }
